@@ -1,0 +1,47 @@
+.gl-list {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  .gl-list-item {
+    list-style-type: none;
+    line-height: 36px;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 16px;
+    color: #eeeeee;
+    position: relative;
+    //transition: background-color 200ms ease, color 100ms ease;
+
+    &:hover {
+      cursor: pointer;
+      background-color: darken(#A74D4B, 0%);
+      color: #202020;
+      //transition: background-color 200ms ease, color 100ms ease;
+    }
+
+    &.active {
+      cursor: pointer;
+      background-color: darken(#A74D4B, 0%);
+      color: #202020;
+      //transition: background-color 200ms ease, color 100ms ease;
+    }
+
+    & i{
+      display: inline-block;
+      height: 36px;
+      width: 36px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 24px 24px;
+      margin-right: 10px;
+      vertical-align: middle;
+
+      &>svg{
+        display: block;
+        margin: 5px auto 0 auto;
+      }
+    }
+  }
+}

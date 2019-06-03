@@ -1,0 +1,9 @@
+{
+  "name": "gtk",
+  "version": "0.1.0",
+  "description": "gtk bindings for nodejs",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
